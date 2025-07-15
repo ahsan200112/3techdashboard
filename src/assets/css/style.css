@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* OTP Verification Page Styles */
+.otp-verification-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Roboto", sans-serif;
+}
+
+.otp-container {
+  text-align: center;
+  padding: 30px 20px;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 100%;
+}
+
+.otp-container h1 {
+  font-size: 44px;
+  margin-bottom: 20px;
+}
+
+.otp-container p {
+  color: gray;
+  line-height: 1.3;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.otp-input-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.otp-input {
+  width: 50px;
+  height: 50px;
+  font-size: 1.5rem;
+  text-align: center;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  transition: all 0.3s ease;
+  background: #f9f9f9;
+}
+
+.otp-input:focus {
+  border-color: #0cbb69;
+  background: #fff;
+}
+
+.verify-button {
+  background: #0cbb69;
+  color: #fff;
+  font-size: 1rem;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  width: 100%;
+}
+
+.verify-button:hover {
+  background: #068047;
+}
+
+.resend-button {
+  margin-top: 10px;
+  background: none;
+  border: none;
+  color: #007bff;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.resend-button:disabled {
+  color: grey;
+  cursor: not-allowed;
+}
+
+small {
+  color: red;
+  font-size: 14px !important;
+}
+
+.change-email-text {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.change-email-link {
+  color: #007bff;
+  background: none;
+  border: none;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.update-email-section {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
+}
+
+.email-input {
+  padding: 10px 12px;
+  font-size: 16px;
+  flex: 1;
+  /* width: 350px; */
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.update-email-button {
+  padding: 10px 16px;
+  background-color: #5a6066;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.update-email-button:hover {
+  background-color: #0056b3;
+}

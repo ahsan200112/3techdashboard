@@ -1,0 +1,43 @@
+{
+  "nav": {
+    "dashboard": "Dashboard",
+    "products": "Products",
+    "orders": "Orders",
+    "customers": "Customers",
+    "analytics": "Analytics",
+    "settings": "Settings",
+    "stores": "Stores",
+    "themes": "Themes",
+    "inventory": "Inventory",
+    "categories": "Categories",
+    "productOptions": "Product Options"
+  },
+  "header": {
+    "search": "Search...",
+    "notifications": "Notifications",
+    "userMenu": {
+      "profile": "User Settings",
+      "subscription": "Subscription Management",
+      "logout": "Logout"
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome to your store dashboard",
+    "description": "Manage your online store with ease"
+  },
+  "products": {
+    "title": "Products",
+    "description": "Manage your store products and inventory"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "view": "View"
+  }
+}

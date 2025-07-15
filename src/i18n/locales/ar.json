@@ -1,0 +1,43 @@
+{
+  "nav": {
+    "dashboard": "لوحة التحكم",
+    "products": "المنتجات",
+    "orders": "الطلبات",
+    "customers": "العملاء",
+    "analytics": "التحليلات",
+    "settings": "الإعدادات",
+    "stores": "المتاجر",
+    "themes": "القوالب",
+    "inventory": "المخزون",
+    "categories": "الفئات",
+    "productOptions": "خيارات المنتج"
+  },
+  "header": {
+    "search": "البحث...",
+    "notifications": "الإشعارات",
+    "userMenu": {
+      "profile": "إعدادات المستخدم",
+      "subscription": "إدارة الاشتراك",
+      "logout": "تسجيل الخروج"
+    }
+  },
+  "dashboard": {
+    "title": "لوحة التحكم",
+    "welcome": "مرحباً بك في لوحة تحكم متجرك",
+    "description": "إدارة متجرك الإلكتروني بسهولة"
+  },
+  "products": {
+    "title": "المنتجات",
+    "description": "إدارة منتجات متجرك والمخزون"
+  },
+  "common": {
+    "loading": "جاري التحميل...",
+    "error": "حدث خطأ ما",
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "add": "إضافة",
+    "view": "عرض"
+  }
+}
